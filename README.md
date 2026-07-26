@@ -2,7 +2,9 @@
 
 ## Project Description
 
-This project demonstrates an ETL (Extract, Transform, Load) pipeline using MongoDB as a data warehouse.
+This project implements an ETL (Extract, Transform, Load) pipeline using MongoDB as a data warehouse.
+
+The objective is to collect data from multiple sources, process and clean it, then store it in MongoDB for analysis.
 
 Data is extracted from three different sources:
 
@@ -10,7 +12,8 @@ Data is extracted from three different sources:
 - REST API (FakeStore API)
 - SQLite Database (Employees)
 
-The extracted data is cleaned using Pandas, then loaded into MongoDB. Finally, all data is consolidated into a unified MongoDB collection for analytics.
+The extracted data is transformed using Pandas by cleaning and standardizing the datasets. 
+Finally, the processed data is loaded into MongoDB collections and unified into a single collection for analytics.
 
 ---
 
