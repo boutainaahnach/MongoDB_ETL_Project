@@ -98,4 +98,5 @@ The pipeline can run automatically every minute using the Schedule library.
 
 ## Author
 
-Student: Your Name
+Student: Boutaina Ahnach
+Master GLCC
